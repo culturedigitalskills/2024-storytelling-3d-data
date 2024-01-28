@@ -2,8 +2,10 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
+![&copy; Gstudio Templates from AdobeStock](episodes/fig/linked-media.png){alt="logo media"}
 
+Welcome to the storytelling with 3D data lesson.
 
-[workbench]: https://carpentries.github.io/sandpaper-docs
-
+This lesson offers a broad overview of how 3D models
+can be made available online using a storytelling
+tool.

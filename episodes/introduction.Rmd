@@ -1,111 +1,77 @@
 ---
-title: 'introduction'
-teaching: 10
-exercises: 2
+title: 'Introduction'
+teaching: 15
+exercises: 0
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using R Markdown and `{sandpaper}`?
+- Why 3D data needs to be made accessible.
+- What does FAIR data means.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::: objectives
+## Making it FAIR
 
-- Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+Once a 3D model is created by deploying digitisation methods,
+it is good practice to provide access to the 3D model.
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+It is also useful to follow the FAIR principles, which states 
+that content should remain:
 
-## Introduction
-
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown][pandoc] for static files (with extension `.md`) and
-[R Markdown][r-markdown] for dynamic files that can render code into output
-(with extension `.Rmd`). Please refer to the [Introduction to The Carpentries
-Workbench][carpentries-workbench] for full documentation.
-
-What you need to know is that there are three sections required for a valid
-Carpentries lesson template:
-
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## Challenge 1: Can you do it?
-
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
-
-:::::::::::::::::::::::: solution 
-
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
-
-:::::::::::::::::::::::::::::::::
+- **Findable**: creating rich and structured metadata for your 3D model will potentially allow others to find the 3D model, and the information related to it.
+- **Accessible**: the 3D model and its metadata should be
+accessible via using a *protocol* for web, such as HTTP/HTTPS.
+- **Interoperable**: consider how other users will bring together content
+from various data sets, for instance to create a new project. Some frameworks such as [IIIF](https://github.com/IIIF/awesome-iiif) (generally pronounced "triple-eye-eff") allow for linking to visual media in an interoperable way.
+- **Reusable**: 3D data should be 
+released with a clear and accessible data usage license.
 
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+## Storytelling 
 
-:::::::::::::::::::::::: solution 
+Storytelling is 
+a useful way to engage users not only with the 3D model. But
+also with other stories which 
+bring to life the significance of such object
+when documenting material knowledge.
 
-You can add a line with at least three colons and a `solution` tag.
+Although the domain of storytelling is large,
+we mostly cover the stories which are
+easily enabled by accessible web tools.
 
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
+We refer to this type of content as **interactive
+linear stories**, to distinguish them
+from potentially other non-linear and non-interactive 
+ways in which stories
+can be created to engage with 3D content.
 
-## Figures
+::::: challenge
 
-You can include figures generated from R Markdown:
+Can you think other types of digital content
+with rely heavily in 3D models?
 
-```{r pyramid, fig.alt = "pie chart illusion of a pyramid", fig.cap = "Sun arise each and every morning"}
-pie(
-  c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5), 
-  init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
-  border = FALSE
-)
-```
-Or you can use pandoc markdown for static figures with the following syntax:
+In which ways are these interactive/non-interactive,
+or linear/non-linear.
 
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
+::::: 
 
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
+In this type of stories,
+user can interact with the 3D model
+by following a sequential narrative.
+This type of storytelling
+is popular in museums' applications, such as kiosks.
 
-## Math
+Websites also use the popular **scrollytelling** technique.
+This technique allows a user to follow a narrative by scrolling.
+By doing this, they access an interwoven mix of textual and visual
+media, including images, videos or 3D models, with which they can
+interact to get additional details.
 
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
-
-::::::::::::::::::::::::::::::::::::: keypoints 
-
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
+## Annotations
+Images and 3D models also use a technique called annotations,
+where more informaiton can be *pinned* to the asset
+at a specific position. This technique is heavily used when
+interacting with the 3D model
+to the attention of users particular positions of the
+3D model which are of interest.
