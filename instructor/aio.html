@@ -182,7 +182,19 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. introduction</a>
+        <a href="introduction.html">1. Introduction</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="storytelling-with-mutltidimensional-media.html">2. Storytelling with Mutltidimensional Media</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -246,194 +258,149 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="aio-introduction"><p>Content from <a href="introduction.html">introduction</a></p>
+<section id="aio-introduction"><p>Content from <a href="introduction.html">Introduction</a></p>
 <hr>
-<p>Last updated on 2024-01-24 |
+<p>Last updated on 2024-01-29 |
         
         <a href="https://example.com/FIXME-template-source/edit/main/episodes/introduction.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 15 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
+<section id="making-it-fair"><h2 class="section-heading">Making it FAIR<a class="anchor" aria-label="anchor" href="#making-it-fair"></a>
+</h2>
+<hr class="half-width">
+<p>Once a 3D model is created by deploying digitisation methods, it is
+good practice to provide access to the 3D model.</p>
+<p>It is also useful to follow the FAIR principles, which states that
+content should remain:</p>
 <ul>
-<li>How do you write a lesson using R Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul>
-<li>Explain how to use markdown with the new lesson template</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section id="introduction"><h2 class="section-heading">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<li>
+<strong>Findable</strong>: creating rich and structured metadata for
+your 3D model will potentially allow others to find the 3D model, and
+the information related to it.</li>
+<li>
+<strong>Accessible</strong>: the 3D model and its metadata should be
+accessible via using a <em>protocol</em> for web, such as
+HTTP/HTTPS.</li>
+<li>
+<strong>Interoperable</strong>: consider how other users will bring
+together content from various data sets, for instance to create a new
+project. Some frameworks such as <a href="https://github.com/IIIF/awesome-iiif" class="external-link">IIIF</a> (generally
+pronounced “triple-eye-eff”) allow for linking to visual media in an
+interoperable way.</li>
+<li>
+<strong>Reusable</strong>: 3D data should be released with a clear
+and accessible data usage license.</li>
+</ul></section><section id="storytelling"><h2 class="section-heading">Storytelling<a class="anchor" aria-label="anchor" href="#storytelling"></a>
 </h2>
 <hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written
-in <a href="https://pandoc.org/MANUAL.html" class="external-link">Pandoc-flavored Markdown</a>
-for static files (with extension <code>.md</code>) and <a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> for dynamic files
-that can render code into output (with extension <code>.Rmd</code>).
-Please refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
-Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a
-valid Carpentries lesson template:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> are displayed at the beginning of the episode
-to prime the learner for the content.</li>
-<li>
-<code>objectives</code> are the learning objectives for an episode
-displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to
-reinforce the objectives.</li>
-</ol>
-<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
-  <h3 class="accordion-header" id="headingInstructor1">
-<div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>Instructor Note</h3>
-</button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
-<div class="accordion-body">
-<p>Inline instructor notes can help inform instructors of timing
-challenges associated with the lessons. They appear in the “Instructor
-View”</p>
-</div>
-</div>
-</div>
-</div>
-<div id="challenge-1-can-you-do-it" class="callout challenge">
+<p>Storytelling is a useful way to engage users not only with the 3D
+model. But also with other stories which bring to life the significance
+of such object when documenting material knowledge.</p>
+<p>Although the domain of storytelling is large, we mostly cover the
+stories which are easily enabled by accessible web tools.</p>
+<p>We refer to this type of content as <strong>interactive linear
+stories</strong>, to distinguish them from potentially other non-linear
+and non-interactive ways in which stories can be created to engage with
+3D content.</p>
+<div id="discussion1" class="callout discussion">
 <div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="challenge-1-can-you-do-it" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Can you do it?<a class="anchor" aria-label="anchor" href="#challenge-1-can-you-do-it"></a>
-</h3>
-<div class="callout-content">
-<p>What is the output of this command?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"This"</span>, <span class="st">"new"</span>, <span class="st">"lesson"</span>, <span class="st">"looks"</span>, <span class="st">"good"</span><span class="op">)</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">Output</h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "This new lesson looks good"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
-<h3 class="callout-title">Challenge 2: how do you nest solutions within
-challenge blocks?<a class="anchor" aria-label="anchor" href="#challenge-2-how-do-you-nest-solutions-within-challenge-blocks"></a>
-</h3>
-<div class="callout-content">
-
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p>You can add a line with at least three colons and a
-<code>solution</code> tag.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section id="figures"><h2 class="section-heading">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
-</h2>
-<hr class="half-width">
-<p>You can include figures generated from R Markdown:</p>
-<div class="codewrapper sourceCode" id="cb3">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
-<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Sunny side of pyramid"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Shady side of pyramid"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
-<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
-<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
-<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
-<span><span class="op">)</span></span></code></pre>
-</div>
-<figure style="text-align: center"><img src="../fig/introduction-rendered-pyramid-1.png" alt="pie chart illusion of a pyramid" class="figure mx-auto d-block"><figcaption>
-Sun arise each and every morning
-</figcaption></figure><p>Or you can use pandoc markdown for static figures with the following
-syntax:</p>
-<p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><figcaption>You belong in The Carpentries!</figcaption></figure></section><section id="math"><h2 class="section-heading">Math<a class="anchor" aria-label="anchor" href="#math"></a>
-</h2>
-<hr class="half-width">
-<p>One of our episodes contains <span class="math inline">\(\LaTeX\)</span> equations when describing how to
-create dynamic reports with {knitr}, so we now use mathjax to describe
-this:</p>
-<p><code>$\alpha = \dfrac{1}{(1 - \beta)^2}$</code> becomes: <span class="math inline">\(\alpha = \dfrac{1}{(1 - \beta)^2}\)</span></p>
-<p>Cool, right?</p>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
-<ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
-</ul>
+<p>Can you think other types of digital content with rely heavily in 3D
+models?</p>
+<p>In which ways are these interactive/non-interactive, or
+linear/non-linear.</p>
 </div>
 </div>
 </div>
+<p>In this type of stories, user can interact with the 3D model by
+following a sequential narrative. This type of storytelling is popular
+in museums’ applications, such as kiosks.</p>
+<p>Websites also use the popular <strong>scrollytelling</strong>
+technique. This technique allows a user to follow a narrative by
+scrolling. By doing this, they access an interwoven mix of textual and
+visual media, including images, videos or 3D models, with which they can
+interact to get additional details.</p>
+</section><section id="annotations"><h2 class="section-heading">Annotations<a class="anchor" aria-label="anchor" href="#annotations"></a>
+</h2>
+<hr class="half-width">
+<p>Images and 3D models also use a technique called annotations, where
+more informaiton can be <em>pinned</em> to the asset at a specific
+position. This technique is heavily used when interacting with the 3D
+model to the attention of users particular positions of the 3D model
+which are of interest.</p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</section></section>
+</section></section><section id="aio-storytelling-with-mutltidimensional-media"><p>Content from <a href="storytelling-with-mutltidimensional-media.html">Storytelling with Mutltidimensional Media</a></p>
+<hr>
+<p>Last updated on 2024-01-29 |
+        
+        <a href="https://example.com/FIXME-template-source/edit/main/episodes/storytelling-with-mutltidimensional-media.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 65 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<section id="tools-for-storytelling-with-3d-models"><h2 class="section-heading">Tools for storytelling with 3D models<a class="anchor" aria-label="anchor" href="#tools-for-storytelling-with-3d-models"></a>
+</h2>
+<hr class="half-width">
+<p>During this exercise, you will learn to use a storytelling tool and
+annotations to allow users to explore the 3D model you produced in more
+detail.</p>
+<p>For this, we will use the tool <a href="https://www.exhibit.so/" class="external-link">Exhibit</a>. This tool allow users to
+curate a story bringing together multidimensional media. For example,
+the example below shows the story of the Kinora, which was an early
+motion picture device developed by the French inventors Auguste and
+Louis Lumière in 1895.</p>
+<p>As you will notice, the story brings together images, videos and 3D
+models to illustrate the history of these artefacts, their context and
+mechanics. The media with which this story as developed is available <a href="https://data.d4science.org/workspace-explorer-app?folderId=MUVkZVY5L1hRYnV4ZzJiUVljVlk5U1hmOHZYaDQ1SGVZT0l6aUZGa2lEclVFT0ppWEo4VDRzU2Z0alNiSk5GTg" class="external-link">here</a>.</p>
+<p>You can also view the story here: <a href="https://www.exhibit.so/exhibits/zrHKbV2wqdpcRyfVW05M" class="external-link">https://www.exhibit.so/exhibits/zrHKbV2wqdpcRyfVW05M</a></p>
+<iframe src="https://www.exhibit.so/exhibits/zrHKbV2wqdpcRyfVW05M?embedded=true" width="100%" height="600" allowfullscreen allow="autoplay" frameborder="0">
+</iframe>
+</section><section id="developing-a-3d-story-in-exhibit"><h2 class="section-heading">Developing a 3D story in Exhibit<a class="anchor" aria-label="anchor" href="#developing-a-3d-story-in-exhibit"></a>
+</h2>
+<hr class="half-width">
+<p>We will learn to use the tutorial <a href="https://exhibit-culturedigitalskills.vercel.app/" class="external-link">Exhibit tool</a>
+to give access to a 3D model.</p>
+<p>Please register to use the tool.</p>
+<p>Using the dataset of multidimensional data which you previously
+curated, the task is to create a story which brings all of this
+together.</p>
+<p>More instructions on creating an Exhibit are here: <a href="https://exhibit-culturedigitalskills.vercel.app/docs" class="external-link">https://exhibit-culturedigitalskills.vercel.app/docs</a></p>
+</section><section id="iiif-content"><h2 class="section-heading">IIIF content<a class="anchor" aria-label="anchor" href="#iiif-content"></a>
+</h2>
+<hr class="half-width">
+<p>You can upload files for images and 3D models, or use existing IIIF
+content with Exhibit.</p>
+<p>If you would like to use a IIIF Manifest, you can use a tools such as
+<a href="https://manifest-editor.digirati.services/" class="external-link">Digirati Manifest
+Editor</a>.</p>
+<p>Create the JSON file using the editor, and upload it alongside the
+media content in D4Science. Then you can provide this JSON url to
+Exhibit.</p>
+<p>To create the JSON, use the following JSON files as examples. Pasting
+the URL links to the in the <a href="https://manifest-editor.digirati.services/" class="external-link">Digirati Manifest
+Editor</a> interface:</p>
+<ul>
+<li>Image: <a href="https://data.d4science.org/shub/E_RjlleHRKM1A3TTUzR0ZiYW1vcjFtNWVyY0JPTzU0djdDNzMrV09LMWgzenF4K0lYc0MzNnZud3BNSHZrK3ZWdQ==" class="external-link">https://data.d4science.org/shub/E_RjlleHRKM1A3TTUzR0ZiYW1vcjFtNWVyY0JPTzU0djdDNzMrV09LMWgzenF4K0lYc0MzNnZud3BNSHZrK3ZWdQ==</a>
+</li>
+<li>Video: <a href="https://data.d4science.org/shub/E_em1ReGc4cE13N2NPYTJrRXUwS3BEbTJqMU5RSEx5cFZ5aXZTRUJ0MDVDdTNsMk5PaUhGOVRmL0FwSThHdmNHNQ==" class="external-link">https://data.d4science.org/shub/E_em1ReGc4cE13N2NPYTJrRXUwS3BEbTJqMU5RSEx5cFZ5aXZTRUJ0MDVDdTNsMk5PaUhGOVRmL0FwSThHdmNHNQ==</a>
+</li>
+<li>3D model: <a href="https://data.d4science.org/shub/E_djREWnFmY1BMS0FJSDh2cTBPQXUwc090NmpldmR3QkNyRWxmN0RvWFZQWWN2TG5OMFM1cWJocWxXNm85dUdYUA==" class="external-link">https://data.d4science.org/shub/E_djREWnFmY1BMS0FJSDh2cTBPQXUwc090NmpldmR3QkNyRWxmN0RvWFZQWWN2TG5OMFM1cWJocWxXNm85dUdYUA==</a>
+</li>
+</ul>
+<figure><img src="../fig/JSONlink.png" alt="editor" class="figure mx-auto d-block"><figcaption>Manifest editor showing JSON link</figcaption></figure><!-- 
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use. 
+ --></section></section>
 </div>
     </main>
 </div>
@@ -451,7 +418,7 @@ any links that you are not going to use.
 	
         | <a href="https://example.com/FIXME-template-source/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
         | <a href="https://example.com/FIXME-template-source/" class="external-link">Source</a></p>
-				<p><a href="https://example.com/FIXME-template-source/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+				<p><a href="https://example.com/FIXME-template-source/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:K.Rodriguez@brighton.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
         
@@ -481,8 +448,8 @@ any links that you are not going to use.
   "url": "https://FIXME-template-source.github.io/NA/instructor/aio.html",
   "identifier": "https://FIXME-template-source.github.io/NA/instructor/aio.html",
   "dateCreated": "2024-01-24",
-  "dateModified": "2024-01-24",
-  "datePublished": "2024-01-24"
+  "dateModified": "2024-01-29",
+  "datePublished": "2024-01-29"
 }
 
   </script><script>
