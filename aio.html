@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>Lesson Title: All in One View</title>
+<title>Creating Stories with 3D Data on the Web: All in One View</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="assets/styles.css">
 <script src="assets/scripts.js" type="text/javascript"></script><!-- mathjax --><script type="text/x-mathjax-config">
@@ -33,15 +33,8 @@
   <div class="container-fluid top-nav-container">
     <div class="col-md-6">
       <div class="large-logo">
-        <img alt="Carpentries Incubator" src="assets/images/incubator-logo.svg"><abbr class="badge badge-light" title="This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught." style="background-color: #FF4955; border-radius: 5px">
-          <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#early-development-pre-alpha-through-alpha" class="external-link alert-link" style="color: #000">
-            <i aria-hidden="true" class="icon" data-feather="alert-octagon" style="border-radius: 5px"></i>
-            Pre-Alpha
-          </a>
-          <span class="visually-hidden">This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.</span>
-        </abbr>
-        
-      </div>
+        <img alt="Carpentries Incubator" src="assets/images/incubator-logo.svg">
+</div>
     </div>
     <div class="selector-container">
       
@@ -65,7 +58,7 @@
       <img class="small-logo" alt="Carpentries Incubator" src="assets/images/incubator-logo-sm.svg">
 </div>
     <div class="lesson-title-md">
-      Lesson Title
+      Creating Stories with 3D Data on the Web
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
@@ -76,7 +69,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 <li class="nav-item">
           <span class="lesson-title">
-            Lesson Title
+            Creating Stories with 3D Data on the Web
           </span>
         </li>
         <li class="nav-item">
@@ -108,7 +101,7 @@
   </div>
 <!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
-  Lesson Title
+  Creating Stories with 3D Data on the Web
 </div>
 
 <aside class="col-md-12 lesson-progress"><div style="width: %" class="percentage">
@@ -193,7 +186,31 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="storytelling-with-mutltidimensional-media.html">2. Storytelling with Mutltidimensional Media</a>
+        <a href="web-viewer.html">2. Web viewers</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="storytelling-with-mutltidimensional-media.html">3. Publishing with Exhibit</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="sketchfab.html">4. Publishing with Sketchfab</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -260,7 +277,7 @@
 <hr>
 <p>Last updated on 2024-02-06 |
         
-        <a href="https://example.com/FIXME-template-source/edit/main/episodes/introduction.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/culturedigitalskills/2024-storytelling-3d-data/edit/main/episodes/introduction.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -273,9 +290,8 @@ good practice to provide access to the 3D model.</p>
 content should remain:</p>
 <ul>
 <li>
-<strong>Findable</strong>: creating rich and structured metadata for
-your 3D model will potentially allow others to find the 3D model, and
-the information related to it.</li>
+<strong>Findable</strong>: allow others to find the 3D model and the
+information related to it.</li>
 <li>
 <strong>Accessible</strong>: the 3D model and its metadata should be
 accessible via using a <em>protocol</em> for web, such as
@@ -289,19 +305,200 @@ interoperable way.</li>
 <li>
 <strong>Reusable</strong>: 3D data should be released with a clear
 and accessible data usage license.</li>
-</ul></section><section id="storytelling"><h2 class="section-heading">Storytelling<a class="anchor" aria-label="anchor" href="#storytelling"></a>
+</ul></section><section id="interactive-linear-stories"><h2 class="section-heading">Interactive Linear Stories<a class="anchor" aria-label="anchor" href="#interactive-linear-stories"></a>
 </h2>
 <hr class="half-width">
-<p>Storytelling is a useful way to engage users not only with the 3D
-model. But also with other stories which bring to life the significance
-of such object when documenting material knowledge.</p>
-<p>Although the domain of storytelling is large, we mostly cover the
-stories which are easily enabled by accessible web tools.</p>
-<p>We refer to this type of content as <strong>interactive linear
-stories</strong>, to distinguish them from potentially other non-linear
-and non-interactive ways in which stories can be created to engage with
-3D content.</p>
-<div id="discussion1" class="callout discussion">
+<p>Storytelling is a useful way to engage users with object and their
+stories. Storytelling is large domain, we focus on the stories which are
+easily enabled by accessible web-tools.</p>
+<p><strong>Interactive linear stories</strong> allow users to interact
+with the 3D models by following a sequential narrative. This type of
+storytelling is popular in museums’ applications, such as kiosks.</p>
+<p>Images and 3D models also use a technique called annotations, where
+more information can be <em>pinned</em> to the asset at a specific
+position. This technique is heavily used when interacting with the 3D
+model to the attention of users particular positions of the 3D model
+which are of interest.</p>
+<iframe title="Skara Brae, Orkney" frameborder="0" allowfullscreen mozallowfullscreen="true" width="100%" height="400px" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/db877d56cfd4441a8bc844419790f50a/embed">
+</iframe>
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+<a href="https://sketchfab.com/3d-models/skara-brae-orkney-db877d56cfd4441a8bc844419790f50a?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=db877d56cfd4441a8bc844419790f50a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;" class="external-link">
+Skara Brae, Orkney </a> by
+<a href="https://sketchfab.com/HistoricEnvironmentScotland?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=db877d56cfd4441a8bc844419790f50a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;" class="external-link">
+Historic Environment Scotland </a> on
+<a href="https://sketchfab.com?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=db877d56cfd4441a8bc844419790f50a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;" class="external-link">Sketchfab</a>
+</p>
+</section><section id="scrollytelling"><h2 class="section-heading">Scrollytelling<a class="anchor" aria-label="anchor" href="#scrollytelling"></a>
+</h2>
+<hr class="half-width">
+<p>Websites also use the popular <strong>scrollytelling</strong>
+technique, which allows a user to follow a narrative by scrolling.</p>
+<p>By doing this, they access an interwoven mix of textual and visual
+media, including images, videos or 3D models, with which they can
+interact to get additional details.</p>
+<iframe src="https://www.exhibit.so/exhibits/H8eRALyZNl8STQKrNev9?embedded=true" width="100%" height="600" allowfullscreen allow="autoplay" frameborder="0">
+</iframe>
+<p>Exhibit of Jane Austen © Dr Elizabeth Andrews <a href="https://www.exhibit.so/exhibits/H8eRALyZNl8STQKrNev9" class="external-link">click
+here</a> to open in a new window.</p>
+<!----
+::::: challenge
+
+Can you think other types of digital content
+with rely heavily in 3D models?
+
+In which ways are these interactive/non-interactive,
+or linear/non-linear.
+
+::::: 
+--->
+<!-- 
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use. 
+ -->
+</section></section><section id="aio-web-viewer"><p>Content from <a href="web-viewer.html">Web viewers</a></p>
+<hr>
+<p>Last updated on 2024-02-06 |
+        
+        <a href="https://github.com/culturedigitalskills/2024-storytelling-3d-data/edit/main/episodes/web-viewer.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<p>With the advent of HTML5, web browsers are fully ready to render 3D
+models without users needing to install any additional software or
+plugins.</p>
+<p>Many platforms for publishing and sharing 3D models have been made
+available, including some which are popular with cultural heritage
+content:</p>
+<ul>
+<li><a href="https://sketchfab.com/" class="external-link">Sketchfab</a></li>
+<li><a href="https://kompakkt.de/explore?locale=en" class="external-link">Kompakkt</a></li>
+<li><a href="https://www.morphosource.org/" class="external-link">Morphosource</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Thingiverse" class="external-link">Thingiverse</a></li>
+<li><a href="https://visual.ariadne-infrastructure.eu/" class="external-link">Visual Media
+Service</a></li>
+</ul>
+<p>Most of these solutions use cloud technologies in which the 3D models
+are stored on the servers of the organisation providing the
+software.</p>
+<p>Hence, they require the user to upload the 3D model and prepare it
+for viewing.</p>
+<section id="preparing-3d-files"><h2 class="section-heading">Preparing 3D files<a class="anchor" aria-label="anchor" href="#preparing-3d-files"></a>
+</h2>
+<hr class="half-width">
+<p>Before publishing, there is a need to prepare the files for
+publications.</p>
+<p>This involves ensuring all post-processing and visual enhancement are
+done, and the model is ready to be uploaded online.</p>
+<p>Normally, you will need to:</p>
+<ul>
+<li><p>Reduce the number of polygons to create a lightweight version of
+the model that is optimised for web publication. This can be done either
+in the software which generated the 3D model, or using a tool such as <a href="https://www.meshlab.net/" class="external-link">Meshlab</a>.</p></li>
+<li><p>Ensure the textures are saved with the 3D model.</p></li>
+<li><p>Save using a web-friendly format. Various tools will have
+different requirements regarding formats. Normally, OBJ or glb/gltf are
+widely accepted.</p></li>
+</ul>
+<!-- 
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use. 
+ --></section></section><section id="aio-storytelling-with-mutltidimensional-media"><p>Content from <a href="storytelling-with-mutltidimensional-media.html">Publishing with Exhibit</a></p>
+<hr>
+<p>Last updated on 2024-02-06 |
+        
+        <a href="https://github.com/culturedigitalskills/2024-storytelling-3d-data/edit/main/episodes/storytelling-with-mutltidimensional-media.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<p>Specialised tools, such as <a href="https://www.exhibit.so/" class="external-link">Exhibit</a>, allow to easily curate a
+story bringing together multidimensional media, including 3D, images and
+video. It is IIIF compatible leveraging its interoperability to bring
+together various conten.</p>
+<p>For example, the example below shows the story of the Kinora, which
+was an early motion picture device developed by the French inventors
+Auguste and Louis Lumière in 1895.</p>
+<p>As you will notice, the story brings together images, videos and 3D
+models to illustrate the history of these artefacts, their context and
+mechanics. The media with which this story as developed is available <a href="https://data.d4science.org/workspace-explorer-app?folderId=MUVkZVY5L1hRYnV4ZzJiUVljVlk5U1hmOHZYaDQ1SGVZT0l6aUZGa2lEclVFT0ppWEo4VDRzU2Z0alNiSk5GTg" class="external-link">here</a>.</p>
+<p>You can also view the story here: <a href="https://www.exhibit.so/exhibits/zrHKbV2wqdpcRyfVW05M" class="external-link">https://www.exhibit.so/exhibits/zrHKbV2wqdpcRyfVW05M</a></p>
+<iframe src="https://www.exhibit.so/exhibits/zrHKbV2wqdpcRyfVW05M?embedded=true" width="100%" height="600" allowfullscreen allow="autoplay" frameborder="0">
+</iframe><section id="developing-a-3d-story-in-exhibit"><h2 class="section-heading">Developing a 3D story in Exhibit<a class="anchor" aria-label="anchor" href="#developing-a-3d-story-in-exhibit"></a>
+</h2>
+<hr class="half-width">
+<p>We will learn to use the tutorial <a href="https://exhibit-culturedigitalskills.vercel.app/" class="external-link">Exhibit tool</a>
+to give access to a 3D model.</p>
+<p>Please register to use the tool.</p>
+<p>Using the 3D model which you previously created, the task is to
+create a story which brings all of this together. You can upload files
+for images and 3D models directly in the <a href="https://exhibit-culturedigitalskills.vercel.app/" class="external-link">Exhibit
+tool</a>.</p>
+<p>More instructions on creating an Exhibit are here: <a href="https://exhibit-culturedigitalskills.vercel.app/docs" class="external-link">https://exhibit-culturedigitalskills.vercel.app/docs</a>.</p>
+<!-- 
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use. 
+ -->
+</section></section><section id="aio-sketchfab"><p>Content from <a href="sketchfab.html">Publishing with Sketchfab</a></p>
+<hr>
+<p>Last updated on 2024-02-06 |
+        
+        <a href="https://github.com/culturedigitalskills/2024-storytelling-3d-data/edit/main/episodes/sketchfab.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<p><a href="https://sketchfab.com/" class="external-link">Sketchfab</a> is a popular tool for
+sharing and embedding 3D models.</p>
+<p>It offers the 3D model creator the ability to:</p>
+<ul>
+<li>Upload 3D files</li>
+<li>Manage navigation and views</li>
+<li>Edit the model’s orientation and lighting</li>
+<li>Add annotations to the model</li>
+<li>Add simple metadata</li>
+<li>Publish the model online</li>
+</ul>
+<div class="section level3">
+<h3 id="upload-3d-files">Upload 3D files<a class="anchor" aria-label="anchor" href="#upload-3d-files"></a>
+</h3>
+<p>To upload a 3D file, you need to first create an account. This will
+allow to upload a 3D model. Login to your account, and click on the
+<em>upload</em> button.</p>
+<p>Please note that Sketchfab allows to upload a file up to 100MB.
+Hence, you need to ensure the resolution is lowered in your file.</p>
+<p>The software will allow to open your files. Sketchfab supports
+formats, including FBX, OBJ, DAE, BLEND, STL and you can also upload an
+archive like ZIP, RAR, or 7z, containing your textures, materials, and
+mesh.</p>
+<p>If using textures which are available in separate files, it is
+recommended to zip your files together to simplify the upload
+process.</p>
+<figure><img src="fig/uploadmodel.png" alt="" class="figure mx-auto d-block"><figcaption>Sketchfab interface to upload 3D model.</figcaption></figure><p>Sketcfab allows you to input basic metadata, including:</p>
+<ul>
+<li>Title</li>
+<li>Description</li>
+<li>Categories, which is best to use “Cultural Heritage and
+History”</li>
+<li>Tags</li>
+<li>Who can see the 3D model giving options such as public, private or
+password protected</li>
+<li>Whether to allow comments on this model</li>
+<li>Whether to allow texture inspection.</li>
+<li>Whether it is age-restricted</li>
+<li>Whether people can download the 3D model</li>
+</ul>
+<p>Note that Sketchfab has an upload limit for 3D models that cannot be
+downloaded.</p>
+<p>To edit the settings of the 3D model, click on <em>Edit 3D
+Settings</em>. This interface allows you to edit settings including:</p>
+<ul>
+<li>Scene settings, such as the 3D model position, its shading, and the
+camera field of view.</li>
+<li>Lighting settings.</li>
+<li>Material settings.</li>
+<li>Apply post-processing filters.</li>
+<li>Annotations and animations</li>
+<li>Scale the 3D model (specially useful for VR/XR viewing).</li>
+</ul>
+<figure><img src="fig/editinterface.png" alt="" class="figure mx-auto d-block"><figcaption>Interface to edit settings for the 3D model.</figcaption></figure><div id="discussion1" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
@@ -309,94 +506,60 @@ and non-interactive ways in which stories can be created to engage with
 <h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
-<p>Can you think other types of digital content with rely heavily in 3D
-models?</p>
-<p>In which ways are these interactive/non-interactive, or
-linear/non-linear.</p>
+<p>Open an account on Sketchfab if you do not already have one, and
+upload your 3D model.</p>
+<p>Add metadata and adjust the various settings for viewing your 3D
+model.</p>
 </div>
 </div>
 </div>
-<p>In this type of stories, user can interact with the 3D model by
-following a sequential narrative. This type of storytelling is popular
-in museums’ applications, such as kiosks.</p>
-<p>Websites also use the popular <strong>scrollytelling</strong>
-technique. This technique allows a user to follow a narrative by
-scrolling. By doing this, they access an interwoven mix of textual and
-visual media, including images, videos or 3D models, with which they can
-interact to get additional details.</p>
-</section><section id="annotations"><h2 class="section-heading">Annotations<a class="anchor" aria-label="anchor" href="#annotations"></a>
-</h2>
-<hr class="half-width">
-<p>Images and 3D models also use a technique called annotations, where
-more informaiton can be <em>pinned</em> to the asset at a specific
-position. This technique is heavily used when interacting with the 3D
-model to the attention of users particular positions of the 3D model
-which are of interest.</p>
+</div>
+<div class="section level3">
+<h3 id="annotations">Annotations<a class="anchor" aria-label="anchor" href="#annotations"></a>
+</h3>
+<p>Annotations supports navigating the 3D models and looking at
+interesting details.</p>
+<p>To add annotations to your 3D model, select <em>annotations</em> on
+the edit settings menu. For each annotation:</p>
+<ol style="list-style-type: decimal">
+<li>Orbit around the 3D model using the mouse until you find the
+position you want to annotate. You can zoom into the model if
+needed.</li>
+<li>Double click in the 3D model.</li>
+<li>This will create a <em>pinned number</em> on your 3D model, and a
+window will appear for you to input a <em>title</em> and
+<em>description</em>. The description can be input in text format. But
+the annotations support a wider range of data types if you are skilled
+in using <a href="https://www.markdownguide.org/" class="external-link">Markdown</a>.</li>
+</ol>
+<p>Click on <em>Save Settings</em>. Your annotations will be saved.</p>
+<iframe title="Spring Summer Low" width="100%" height="350" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b2366eb8cd804e2c9bdb7f65b9bd3db2/embed">
+</iframe>
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+<a href="https://sketchfab.com/3d-models/spring-summer-low-b2366eb8cd804e2c9bdb7f65b9bd3db2?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=b2366eb8cd804e2c9bdb7f65b9bd3db2" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;" class="external-link">
+Spring Summer Low </a> by
+<a href="https://sketchfab.com/culturedigitalskills?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=b2366eb8cd804e2c9bdb7f65b9bd3db2" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;" class="external-link">
+culturedigitalskills </a> on
+<a href="https://sketchfab.com?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=b2366eb8cd804e2c9bdb7f65b9bd3db2" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;" class="external-link">Sketchfab</a>
+</p>
+<div id="discussion2" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+</h3>
+<div class="callout-content">
+<p>Create a few annotations on the 3D model you have uploaded
+highlighting important aspects.</p>
+</div>
+</div>
+</div>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</section></section><section id="aio-storytelling-with-mutltidimensional-media"><p>Content from <a href="storytelling-with-mutltidimensional-media.html">Storytelling with Mutltidimensional Media</a></p>
-<hr>
-<p>Last updated on 2024-02-06 |
-        
-        <a href="https://example.com/FIXME-template-source/edit/main/episodes/storytelling-with-mutltidimensional-media.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
-        </div>
-<section id="tools-for-storytelling-with-3d-models"><h2 class="section-heading">Tools for storytelling with 3D models<a class="anchor" aria-label="anchor" href="#tools-for-storytelling-with-3d-models"></a>
-</h2>
-<hr class="half-width">
-<p>During this exercise, you will learn to use a storytelling tool and
-annotations to allow users to explore the 3D model you produced in more
-detail.</p>
-<p>For this, we will use the tool <a href="https://www.exhibit.so/" class="external-link">Exhibit</a>. This tool allow users to
-curate a story bringing together multidimensional media. For example,
-the example below shows the story of the Kinora, which was an early
-motion picture device developed by the French inventors Auguste and
-Louis Lumière in 1895.</p>
-<p>As you will notice, the story brings together images, videos and 3D
-models to illustrate the history of these artefacts, their context and
-mechanics. The media with which this story as developed is available <a href="https://data.d4science.org/workspace-explorer-app?folderId=MUVkZVY5L1hRYnV4ZzJiUVljVlk5U1hmOHZYaDQ1SGVZT0l6aUZGa2lEclVFT0ppWEo4VDRzU2Z0alNiSk5GTg" class="external-link">here</a>.</p>
-<p>You can also view the story here: <a href="https://www.exhibit.so/exhibits/zrHKbV2wqdpcRyfVW05M" class="external-link">https://www.exhibit.so/exhibits/zrHKbV2wqdpcRyfVW05M</a></p>
-<iframe src="https://www.exhibit.so/exhibits/zrHKbV2wqdpcRyfVW05M?embedded=true" width="100%" height="600" allowfullscreen allow="autoplay" frameborder="0">
-</iframe>
-</section><section id="developing-a-3d-story-in-exhibit"><h2 class="section-heading">Developing a 3D story in Exhibit<a class="anchor" aria-label="anchor" href="#developing-a-3d-story-in-exhibit"></a>
-</h2>
-<hr class="half-width">
-<p>We will learn to use the tutorial <a href="https://exhibit-culturedigitalskills.vercel.app/" class="external-link">Exhibit tool</a>
-to give access to a 3D model.</p>
-<p>Please register to use the tool.</p>
-<p>Using the dataset of multidimensional data which you previously
-curated, the task is to create a story which brings all of this
-together.</p>
-<p>More instructions on creating an Exhibit are here: <a href="https://exhibit-culturedigitalskills.vercel.app/docs" class="external-link">https://exhibit-culturedigitalskills.vercel.app/docs</a></p>
-</section><section id="iiif-content"><h2 class="section-heading">IIIF content<a class="anchor" aria-label="anchor" href="#iiif-content"></a>
-</h2>
-<hr class="half-width">
-<p>You can upload files for images and 3D models, or use existing IIIF
-content with Exhibit.</p>
-<p>If you would like to use a IIIF Manifest, you can use a tools such as
-<a href="https://manifest-editor.digirati.services/" class="external-link">Digirati Manifest
-Editor</a>.</p>
-<p>Create the JSON file using the editor, and upload it alongside the
-media content in D4Science. Then you can provide this JSON url to
-Exhibit.</p>
-<p>To create the JSON, use the following JSON files as examples. Pasting
-the URL links to the in the <a href="https://manifest-editor.digirati.services/" class="external-link">Digirati Manifest
-Editor</a> interface:</p>
-<ul>
-<li>Image: <a href="https://data.d4science.org/shub/E_RjlleHRKM1A3TTUzR0ZiYW1vcjFtNWVyY0JPTzU0djdDNzMrV09LMWgzenF4K0lYc0MzNnZud3BNSHZrK3ZWdQ==" class="external-link">https://data.d4science.org/shub/E_RjlleHRKM1A3TTUzR0ZiYW1vcjFtNWVyY0JPTzU0djdDNzMrV09LMWgzenF4K0lYc0MzNnZud3BNSHZrK3ZWdQ==</a>
-</li>
-<li>Video: <a href="https://data.d4science.org/shub/E_em1ReGc4cE13N2NPYTJrRXUwS3BEbTJqMU5RSEx5cFZ5aXZTRUJ0MDVDdTNsMk5PaUhGOVRmL0FwSThHdmNHNQ==" class="external-link">https://data.d4science.org/shub/E_em1ReGc4cE13N2NPYTJrRXUwS3BEbTJqMU5RSEx5cFZ5aXZTRUJ0MDVDdTNsMk5PaUhGOVRmL0FwSThHdmNHNQ==</a>
-</li>
-<li>3D model: <a href="https://data.d4science.org/shub/E_djREWnFmY1BMS0FJSDh2cTBPQXUwc090NmpldmR3QkNyRWxmN0RvWFZQWWN2TG5OMFM1cWJocWxXNm85dUdYUA==" class="external-link">https://data.d4science.org/shub/E_djREWnFmY1BMS0FJSDh2cTBPQXUwc090NmpldmR3QkNyRWxmN0RvWFZQWWN2TG5OMFM1cWJocWxXNm85dUdYUA==</a>
-</li>
-</ul>
-<figure><img src="fig/JSONlink.png" alt="editor" class="figure mx-auto d-block"><figcaption>Manifest editor showing JSON link</figcaption></figure><!-- 
-Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use. 
- --></section></section>
+</div></section>
 </div>
     </main>
 </div>
@@ -409,12 +572,12 @@ any links that you are not going to use.
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
         
-        <a href="https://example.com/FIXME-template-source/edit/main/README.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/culturedigitalskills/2024-storytelling-3d-data/edit/main/README.md" class="external-link">Edit on GitHub</a>
         
 	
-        | <a href="https://example.com/FIXME-template-source/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://example.com/FIXME-template-source/" class="external-link">Source</a></p>
-				<p><a href="https://example.com/FIXME-template-source/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:K.Rodriguez@brighton.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/culturedigitalskills/2024-storytelling-3d-data/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/culturedigitalskills/2024-storytelling-3d-data/" class="external-link">Source</a></p>
+				<p><a href="https://github.com/culturedigitalskills/2024-storytelling-3d-data/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:K.Rodriguez@brighton.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
         
@@ -434,15 +597,15 @@ any links that you are not going to use.
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://FIXME-template-source.github.io/NA/aio.html",
+  "@id": "https://culturedigitalskills.github.io/2024-storytelling-3d-data/aio.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
-  "keywords": "software, data, lesson, The Carpentries",
+  "keywords": "storytelling, 3D data, software, data, lesson, The Carpentries",
   "name": "All in One View",
   "creativeWorkStatus": "active",
-  "url": "https://FIXME-template-source.github.io/NA/aio.html",
-  "identifier": "https://FIXME-template-source.github.io/NA/aio.html",
+  "url": "https://culturedigitalskills.github.io/2024-storytelling-3d-data/aio.html",
+  "identifier": "https://culturedigitalskills.github.io/2024-storytelling-3d-data/aio.html",
   "dateCreated": "2024-01-24",
   "dateModified": "2024-02-06",
   "datePublished": "2024-02-06"
