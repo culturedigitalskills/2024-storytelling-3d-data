@@ -11,23 +11,23 @@
 carpentry: 'incubator'
 
 # Overall title for pages.
-title: 'Lesson Title'
+title: 'Creating Stories with 3D Data on the Web'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2024-01-24'
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries'
+keywords: 'storytelling, 3D data, software, data, lesson, The Carpentries'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha'
+life_cycle: 'stable'
 
 # License of the lesson materials (recommended CC-BY 4.0)
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://example.com/FIXME-template-source'
+source: 'https://github.com/culturedigitalskills/2024-storytelling-3d-data'
 
 # Default branch of your lesson
 branch: 'main'
@@ -60,7 +60,9 @@ contact: 'K.Rodriguez@brighton.ac.uk'
 # Order of episodes in your lesson
 episodes:
 - introduction.Rmd
+- web-viewer.Rmd
 - storytelling-with-mutltidimensional-media.Rmd
+- sketchfab.Rmd
 
 # Information for Learners
 learners:
