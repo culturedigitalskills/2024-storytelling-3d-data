@@ -1,22 +1,19 @@
 ---
-title: 'Storytelling with Mutltidimensional Media'
+title: 'Publishing with Exhibit'
 teaching: 30
 exercises: 35
 ---
 
 
-## Tools for storytelling with 3D models
+Specialised tools, such as [Exhibit](https://www.exhibit.so/), allow to easily 
+curate a story bringing together multidimensional 
+media, including 3D, images and video. It is IIIF compatible leveraging its
+interoperability to bring together various conten.
 
-During this exercise, 
-you will learn to use a storytelling tool
-and annotations to allow
-users to explore the 3D model you produced in more detail.
-
-For this, we will use the tool [Exhibit](https://www.exhibit.so/).
-This tool allow users to curate a story bringing together multidimensional 
-media. For example, the example below shows the story of the 
+For example, the example below shows the story of the 
 Kinora, which was an 
-early motion picture device developed by the French inventors Auguste and Louis Lumière in 1895. 
+early motion picture device developed by the French inventors Auguste 
+and Louis Lumière in 1895. 
 
 As you will notice, the story brings together images, videos
 and 3D models to illustrate the
@@ -36,36 +33,15 @@ to a 3D model.
 
 Please register to use the tool.
 
+Using the 3D model
+which you previously created, the task is 
+to create a story which brings all of this together. You can upload files for images and 3D models directly in the
+[Exhibit tool](https://exhibit-culturedigitalskills.vercel.app/).
 
 
-
-Using the dataset of multidimensional data
-which you previously curated, the task is 
-to create a story which brings all of this together.
+More instructions on creating an Exhibit are here: [https://exhibit-culturedigitalskills.vercel.app/docs](https://exhibit-culturedigitalskills.vercel.app/docs).
 
 
-
-More instructions on creating an Exhibit are here: [https://exhibit-culturedigitalskills.vercel.app/docs](https://exhibit-culturedigitalskills.vercel.app/docs)
-
-## IIIF content
-You can upload files for images and 3D models,
-or use existing IIIF content with Exhibit.
-
-If you would like to use a IIIF Manifest, you can use a tools such as
-[Digirati Manifest Editor](https://manifest-editor.digirati.services/).
-
-Create the JSON file using the editor, and upload it alongside the media content
-in D4Science. Then you can provide this JSON url to Exhibit.
-
-To create the JSON, use the following JSON files as examples. 
-Pasting the URL links to the in the [Digirati Manifest Editor](https://manifest-editor.digirati.services/) interface:
-
-
-- Image: [https://data.d4science.org/shub/E_RjlleHRKM1A3TTUzR0ZiYW1vcjFtNWVyY0JPTzU0djdDNzMrV09LMWgzenF4K0lYc0MzNnZud3BNSHZrK3ZWdQ==](https://data.d4science.org/shub/E_RjlleHRKM1A3TTUzR0ZiYW1vcjFtNWVyY0JPTzU0djdDNzMrV09LMWgzenF4K0lYc0MzNnZud3BNSHZrK3ZWdQ==)
-- Video: [https://data.d4science.org/shub/E_em1ReGc4cE13N2NPYTJrRXUwS3BEbTJqMU5RSEx5cFZ5aXZTRUJ0MDVDdTNsMk5PaUhGOVRmL0FwSThHdmNHNQ==](https://data.d4science.org/shub/E_em1ReGc4cE13N2NPYTJrRXUwS3BEbTJqMU5RSEx5cFZ5aXZTRUJ0MDVDdTNsMk5PaUhGOVRmL0FwSThHdmNHNQ==)
-- 3D model: [https://data.d4science.org/shub/E_djREWnFmY1BMS0FJSDh2cTBPQXUwc090NmpldmR3QkNyRWxmN0RvWFZQWWN2TG5OMFM1cWJocWxXNm85dUdYUA==](https://data.d4science.org/shub/E_djREWnFmY1BMS0FJSDh2cTBPQXUwc090NmpldmR3QkNyRWxmN0RvWFZQWWN2TG5OMFM1cWJocWxXNm85dUdYUA==)
-
-![Manifest editor showing JSON link](fig/JSONlink.png){alt="editor"}
 
 
 
