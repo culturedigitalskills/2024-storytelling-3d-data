@@ -31,7 +31,7 @@ it is recommended to zip your files together to simplify the upload process.
 
 ![Sketchfab interface to upload 3D model.](fig/uploadmodel.png)
 
-Sketcfab allows you to input basic metadata, including:
+Sketchfab allows you to input basic metadata, including:
 
 - Title
 - Description
