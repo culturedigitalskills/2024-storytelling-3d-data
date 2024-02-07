@@ -10,6 +10,6 @@
 "episodes/sketchfab.Rmd" "085867e956491fc955e884a7fc83be7b" "site/built/sketchfab.md" "2024-02-07"
 "instructors/instructor-notes.md" "e60ebc6911aa1e288c608d176cd6a548" "site/built/instructor-notes.md" "2024-02-07"
 "learners/reference.md" "527a12e217602daae51c5fd9ef8958df" "site/built/reference.md" "2024-02-07"
-"learners/setup.md" "b0a8cb13d39b66f61bad25afd8416372" "site/built/setup.md" "2024-02-07"
+"learners/setup.md" "42e8ceea8ddefd1a21bb9b485c8b077b" "site/built/setup.md" "2024-02-07"
 "profiles/learner-profiles.md" "5fe5bf7537072422b91ed393ada03f9a" "site/built/learner-profiles.md" "2024-02-07"
 "renv/profiles/lesson-requirements/renv.lock" "ce4e3d2cc313283deb3eb2369a8799d1" "site/built/renv.lock" "2024-02-07"
