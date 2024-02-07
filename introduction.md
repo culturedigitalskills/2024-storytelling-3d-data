@@ -51,6 +51,15 @@ to the attention of users particular positions of the
 
 <iframe title="Skara Brae, Orkney" frameborder="0" allowfullscreen mozallowfullscreen="true" width="100%" height="400px" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/db877d56cfd4441a8bc844419790f50a/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/skara-brae-orkney-db877d56cfd4441a8bc844419790f50a?utm_medium=embed&utm_campaign=share-popup&utm_content=db877d56cfd4441a8bc844419790f50a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Skara Brae, Orkney </a> by <a href="https://sketchfab.com/HistoricEnvironmentScotland?utm_medium=embed&utm_campaign=share-popup&utm_content=db877d56cfd4441a8bc844419790f50a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Historic Environment Scotland </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=db877d56cfd4441a8bc844419790f50a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p>
 
+## Interactive 3D content
+
+Inetractivity allow users to access detailed information of 3D models.
+For instance, *decomposing* or *interacting* with parts of an artefact.
+It allows users to explore recessed ceilings from Zhihua temples from the imperial Ming-era craftsmanship.
+
+
+See example of [Disperse Chinese Art Digitisation project](https://caea.lib.uchicago.edu/dcadp/en/zhihuasi/ceilings/)
+
 ## Scrollytelling
 
 Websites also use the popular **scrollytelling** technique, which 
@@ -63,6 +72,8 @@ interact to get additional details.
 
 <iframe src="https://www.exhibit.so/exhibits/H8eRALyZNl8STQKrNev9?embedded=true" width="100%" height="600" allowfullscreen allow="autoplay" frameborder="0"></iframe>
 Exhibit of Jane Austen &copy; Dr Elizabeth Andrews [click here](https://www.exhibit.so/exhibits/H8eRALyZNl8STQKrNev9) to open in a new window.
+
+
 
 
 <!----

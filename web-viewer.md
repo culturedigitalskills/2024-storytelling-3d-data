@@ -34,8 +34,7 @@ Normally, you will need to:
 - Reduce the number of polygons to create a 
 lightweight version of the model that is optimised 
 for web publication. This can be done either in the software
-which generated the 3D model, or using a tool 
-such as [Meshlab](https://www.meshlab.net/).
+which generated the 3D model, or using a software such as [Blender](https://www.blender.org/) or [Meshlab](https://www.meshlab.net/).
 
 - Ensure the textures are saved with the 3D model.
 
