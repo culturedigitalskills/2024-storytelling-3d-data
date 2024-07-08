@@ -5,8 +5,7 @@ title: Setup
 
 
 ## Data Sets
-Data will be produced during the workshop,
-so you will mostly need access to a web browser and some space in your
+You can use already existing data (see below) or data which have been produced during a training workshop or  data produced by making use of the rest of our resources. You will also need access to a web browser and some space in your
 computer to store the data.
 <!--
 FIXME: place any data you want learners to use in `episodes/data` and then use
@@ -18,7 +17,7 @@ FIXME: place any data you want learners to use in `episodes/data` and then use
 
 For this tutorial, you will need access to the web-based [Exhibit tool](https://exhibit-culturedigitalskills.vercel.app/) and [SketchFab](https://sketchfab.com/).
 
-You will also need access to any 3D models you have produced
+You will also need access to existing 3D models or any 3D models you have produced
 during the workshop. 
 If you do not have access to data, you can use 3D
 models from this dataset:
