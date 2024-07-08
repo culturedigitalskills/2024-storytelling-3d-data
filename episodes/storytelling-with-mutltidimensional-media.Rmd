@@ -28,7 +28,7 @@ here: [https://www.exhibit.so/exhibits/zrHKbV2wqdpcRyfVW05M](https://www.exhibit
 
 ## Developing a 3D story in Exhibit
 
-We will learn to use the tutorial [Exhibit tool](https://exhibit-culturedigitalskills.vercel.app/) to give access
+We will learn how to use the tutorial [Exhibit tool](https://exhibit-culturedigitalskills.vercel.app/) to give access
 to a 3D model.
 
 Please register to use the tool.

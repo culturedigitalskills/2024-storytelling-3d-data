@@ -8,12 +8,12 @@ exercises: 25
 
 It offers the 3D model creator the ability to:
 
-- Upload 3D files
-- Manage navigation and views
-- Edit the model's orientation and lighting
-- Add annotations to the model
-- Add simple metadata
-- Publish the model online
+- Upload 3D files;
+- Manage navigation and views;
+- Edit the model's orientation and lighting;
+- Add annotations to the model;
+- Add simple metadata;
+- Publish the model online.
 
 
 ### Upload 3D files
@@ -29,7 +29,7 @@ The software will allow to open your files. Sketchfab supports formats, includin
 If using textures which are available in separate files, 
 it is recommended to zip your files together to simplify the upload process.
 
-![Sketchfab interface to upload 3D model.](fig/uploadmodel.png)
+![Sketchfab interface to upload 3D model](fig/uploadmodel.png)
 
 Sketchfab allows you to input basic metadata, including:
 
@@ -39,7 +39,7 @@ Sketchfab allows you to input basic metadata, including:
 - Tags
 - Who can see the 3D model giving options such as public, private or password protected
 - Whether to allow comments on this model
-- Whether to allow texture inspection. 
+- Whether to allow texture inspection
 - Whether it is age-restricted 
 - Whether people can download the 3D model
 
@@ -54,7 +54,7 @@ To edit the settings of the 3D model, click on *Edit 3D Settings*. This interfac
 - Annotations and animations
 - Scale the 3D model (specially useful for VR/XR viewing).
 
-![Interface to edit settings for the 3D model.](fig/editinterface.png)
+![Interface to edit settings for the 3D model](fig/editinterface.png)
 
 :::::::::::::::::: challenge
 
@@ -67,7 +67,7 @@ Add metadata and adjust the various settings for viewing your 3D model.
 
 ### Annotations
 
-Annotations supports navigating the 3D models and looking at interesting details.
+Annotations support navigating the 3D models and looking at interesting details.
 
 To add annotations to your 3D model, select *annotations* on the edit settings menu. For each annotation:
 

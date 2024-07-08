@@ -31,8 +31,8 @@ released with a clear and accessible data usage license.
 ## Interactive Linear Stories 
 
 Storytelling is a useful way to engage users 
-with object and their 
-stories. Storytelling is large domain,
+with heritage assets and their 
+stories. Storytelling is a large domain, here
 we focus on the stories which are
 easily enabled by accessible web-tools.
 
@@ -45,20 +45,14 @@ is popular in museums' applications, such as kiosks.
 Images and 3D models also use a technique called annotations,
 where more information can be *pinned* to the asset
 at a specific position. This technique is heavily used when
-interacting with the 3D model
-to the attention of users particular positions of the
-3D model which are of interest.
+interacting with a 3D model to direct the attention of users to particular points which are of interest.
 
 <iframe title="Skara Brae, Orkney" frameborder="0" allowfullscreen mozallowfullscreen="true" width="100%" height="400px" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/db877d56cfd4441a8bc844419790f50a/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/skara-brae-orkney-db877d56cfd4441a8bc844419790f50a?utm_medium=embed&utm_campaign=share-popup&utm_content=db877d56cfd4441a8bc844419790f50a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Skara Brae, Orkney </a> by <a href="https://sketchfab.com/HistoricEnvironmentScotland?utm_medium=embed&utm_campaign=share-popup&utm_content=db877d56cfd4441a8bc844419790f50a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Historic Environment Scotland </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=db877d56cfd4441a8bc844419790f50a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p>
 
 ## Interactive 3D content
 
-Inetractivity allow users to access detailed information of 3D models.
-For instance, *decomposing* or *interacting* with parts of an artefact.
-It allows users to explore recessed ceilings from Zhihua temples from the imperial Ming-era craftsmanship.
-
-
-See example of [Disperse Chinese Art Digitisation project](https://caea.lib.uchicago.edu/dcadp/en/zhihuasi/ceilings/)
+Interactivity allows users to access detailed information on 3D models.
+For instance, it allows *decomposing* or *interacting* with parts of an artefact, as in the recessed ceilings from Zhihua temples from the imperial Ming-era craftsmanship. You can find this example here: [Disperse Chinese Art Digitisation project](https://caea.lib.uchicago.edu/dcadp/en/zhihuasi/ceilings/).
 
 ## Scrollytelling
 
