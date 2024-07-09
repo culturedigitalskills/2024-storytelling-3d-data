@@ -1,12 +1,14 @@
 To reference information about this module, please cite:
 
 Karina Rodriguez Echavarria and Nicola Schiavottiello. "Creating Stories with 3D Data on the Web".
-2024.
+2024. https://doi.org/10.5281/zenodo.12698643
 
 @online{rodriguez-story-3d-24,
   author      = {Karina {Rodriguez Echavarria} and Nicola Schiavottiello},
   title       = {Creating Stories with 3D Data on the Web},
   year        = {2024},
+url = {https://doi.org/10.5281/zenodo.12698643},
+doi = {10.5281/zenodo.12698643}
 }
 
 Title: Creating Stories with 3D Data on the Web
