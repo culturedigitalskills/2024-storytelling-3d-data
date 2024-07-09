@@ -26,6 +26,9 @@ models from this dataset:
 
 - [Larger sculpture](https://data.d4science.org/shub/E_S1Z0U2srVkVqRHI5RVBETFZsVVhFcTh0U2xvc1p2MUM1T1d0d2Y4Y2VXNzZTVytsQnRDTjlxWXJMNm1FVkpEWQ==)
 
-The tutorial is built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/), as part of the training activities of the [AHRC-funded network service on Digital Skills in Visual and Material Culture](https://www.culturedigitalskills.org). 
+This resource is built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/), as part of the training activities of the [AHRC-funded network service on Digital Skills in Visual and Material Culture](https://www.culturedigitalskills.org). 
 
 ![](../episodes/fig/colorlogo_centre.png){width=50% alt="logo"}
+
+### DOI  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12698643.svg)](https://doi.org/10.5281/zenodo.12698643)
